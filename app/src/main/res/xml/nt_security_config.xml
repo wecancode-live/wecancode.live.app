@@ -1,0 +1,12 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<network-security-config>
+    <!-- This file will tell our App, which domains are allowed to load and navigate -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">
+            wecancode.live
+        </domain>
+        <domain includeSubdomains="true">
+            aryanz.co.in
+        </domain>
+    </domain-config>
+</network-security-config>
